@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, MessageCircle, MapPin, Clock, Send } from "lucide-react";
+import { Phone, MessageCircle, MapPin, Clock, Send, Mail } from "lucide-react";
 
 const WA1 = "https://wa.me/258848699933";
 const WA2 = "https://wa.me/258877201231";
@@ -75,6 +75,15 @@ export default function Contacto() {
                   </p>
                   <a href="tel:+258857592248" className="flex items-center gap-3 text-blue-700 font-bold hover:text-blue-900 transition-colors">
                     <Phone className="w-5 h-5" /> +258 85 759 2248
+                  </a>
+                </div>
+
+                <div className="bg-blue-50 border border-blue-200 rounded-2xl p-5">
+                  <p className="text-blue-700 font-semibold text-sm mb-3 flex items-center gap-2">
+                    <Mail className="w-4 h-4" /> Email
+                  </p>
+                  <a href="mailto:nelvy.geral@gmail.com" className="flex items-center gap-3 text-blue-700 font-bold hover:text-blue-900 transition-colors">
+                    <Mail className="w-5 h-5" /> nelvy.geral@gmail.com
                   </a>
                 </div>
 

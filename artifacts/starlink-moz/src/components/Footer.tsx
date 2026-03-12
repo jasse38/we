@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Phone, MessageCircle, Satellite, MapPin } from "lucide-react";
+import { Phone, MessageCircle, MapPin, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,14 +7,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center">
-                <Satellite className="w-5 h-5 text-white" />
-              </div>
-              <div>
-                <span className="text-white font-bold text-lg leading-none">Technologio</span>
-                <span className="text-blue-400 font-bold text-lg leading-none">24/v</span>
-              </div>
+            <div className="mb-4">
+              <img src="/logo.jpeg" alt="Nelvy LDA" className="h-12 w-auto rounded-md bg-white px-2 py-1" />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               Especialistas em instalação de Starlink, segurança eletrônica e automação residencial em Moçambique.
@@ -85,6 +79,13 @@ export default function Footer() {
                   +258 85 759 2248
                 </a>
               </div>
+              <div>
+                <p className="text-gray-500 text-xs mb-1">Email</p>
+                <a href="mailto:nelvy.geral@gmail.com" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+                  <Mail className="w-4 h-4 text-blue-400" />
+                  nelvy.geral@gmail.com
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -94,7 +95,7 @@ export default function Footer() {
             Serviços mediante levantamento técnico e proposta de cotação personalizada.
           </p>
           <p className="text-xs text-gray-600 mt-2">
-            © {new Date().getFullYear()} Technologio24/v — Todos os direitos reservados.
+            © {new Date().getFullYear()} Nelvy LDA — Todos os direitos reservados.
           </p>
         </div>
       </div>

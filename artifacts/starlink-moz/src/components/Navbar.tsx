@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X, Satellite } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const links = [
   { href: "/", label: "Início" },
@@ -21,14 +21,8 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-[#0a1628] border-b border-blue-900/50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center">
-              <Satellite className="w-5 h-5 text-white" />
-            </div>
-            <div>
-              <span className="text-white font-bold text-lg leading-none">Technologio</span>
-              <span className="text-blue-400 font-bold text-lg leading-none">24/v</span>
-            </div>
+          <Link href="/" className="flex items-center">
+            <img src="/logo.jpeg" alt="Nelvy LDA — Informática & Segurança Electrônica" className="h-10 w-auto rounded-md bg-white px-1" />
           </Link>
 
           <div className="hidden md:flex items-center gap-1">

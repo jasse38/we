@@ -18,13 +18,16 @@ export default function Sobre() {
               </div>
               <h1 className="text-4xl font-extrabold text-white mb-6 leading-tight">
                 Sobre a<br />
-                <span className="text-blue-400">Technologio24/v</span>
+                <span className="text-blue-400">Nelvy LDA</span>
               </h1>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                Somos especialistas em instalação de Starlink, segurança eletrônica e automação residencial, oferecendo soluções modernas para casas e empresas em Moçambique.
+                A Nelvy LDA é especialista em Informática, instalação de Starlink, segurança eletrônica e automação residencial, oferecendo soluções modernas para casas e empresas em Moçambique.
               </p>
               <p className="text-gray-400 leading-relaxed">
                 Todos os serviços são realizados mediante levantamento técnico e proposta de cotação personalizada. A nossa equipa de técnicos certificados garante instalações de qualidade com suporte contínuo.
+              </p>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                📧 nelvy.geral@gmail.com
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">

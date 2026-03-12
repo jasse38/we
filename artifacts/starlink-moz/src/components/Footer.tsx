@@ -48,6 +48,9 @@ export default function Footer() {
               <li>Alarmes de Incêndio</li>
               <li>Portões Automáticos</li>
               <li>Automação Residencial</li>
+              <li>Redes de Computador</li>
+              <li>Equipamento Informático</li>
+              <li>Manutenção de Computadores</li>
             </ul>
           </div>
 

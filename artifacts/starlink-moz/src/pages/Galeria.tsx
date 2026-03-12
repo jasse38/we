@@ -64,9 +64,24 @@ const photos = [
     caption: "Alarme de incêndio — Instalação técnica",
     cat: "Alarmes",
   },
+  {
+    src: "/redes.jpg",
+    caption: "Fornecimento e instalação de redes de computador",
+    cat: "Informática",
+  },
+  {
+    src: "/equipamento.jpg",
+    caption: "Fornecimento de equipamento informático",
+    cat: "Informática",
+  },
+  {
+    src: "/manutencao.jpg",
+    caption: "Manutenção e reparação de computadores e impressoras",
+    cat: "Informática",
+  },
 ];
 
-const cats = ["Todos", "Starlink", "Câmeras", "Automação", "Alarmes"];
+const cats = ["Todos", "Starlink", "Câmeras", "Automação", "Alarmes", "Informática"];
 
 import { useState } from "react";
 

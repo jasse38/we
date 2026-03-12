@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Starlink Moçambique"
+version = "1.0.0"
+id = "artifacts/starlink-moz"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+localPort = 23228
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "pnpm --filter @workspace/starlink-moz run dev"
+
+[services.env]
+PORT = "23228"
+BASE_PATH = "/"
+
+[services.production]
+build = ["pnpm", "--filter", "@workspace/starlink-moz", "run", "build"]
+publicDir = "artifacts/starlink-moz/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"

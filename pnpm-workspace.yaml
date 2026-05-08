@@ -161,3 +161,5 @@ overrides:
   "yaml@2": "2.8.3"
   # Security: GHSA-f886-m6hf-6m8v (orval>typedoc>minimatch transitive)
   "brace-expansion@2": "2.0.3"
+  # Security: GHSA-qx2v-qp2m-jg93 (postcss transitive)
+  postcss: "8.5.14"
